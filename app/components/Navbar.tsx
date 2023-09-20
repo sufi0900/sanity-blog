@@ -11,6 +11,11 @@ export default function Navbar() {
               Jan <span className="text-teal-500">Blog</span>
             </h1>
           </Link>
+          <Link href="https://sanity-blogs-app.sanity.studio/">
+            <h1 className="text-2xl font-medium">
+              Sanity <span className="text-teal-500">Studio</span>
+            </h1>
+          </Link>
 
           <Themebutton />
         </div>
