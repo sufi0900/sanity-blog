@@ -1,10 +1,9 @@
-import { Post } from "@/app/lib/interface";
 import { client } from "@/app/lib/sanity";
 import { urlFor } from "@/app/lib/sanityImageUrl";
 import { PortableText } from "@portabletext/react";
 import Image from "next/image";
 
-async function getData(slug: string) {
+async function getData(slug) {
   const query = `*[_type == "post" && slug.current == "${slug}"][0]`;
 
   const data = await client.fetch(query);
@@ -12,16 +11,12 @@ async function getData(slug: string) {
   return data;
 }
 
-export default async function SlugPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const data = (await getData(params.slug)) as Post;
+export default async function SlugPage({ params }) {
+  const data = await getData(params.slug);
 
   const PortableTextComponent = {
     types: {
-      image: ({ value }: { value: any }) => (
+      image: ({ value }) => (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={urlFor(value).url()}
