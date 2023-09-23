@@ -51,10 +51,10 @@ const Footer = () => {
                 <div className="footerpara">
                   <p>
                     Thank you for visiting my portfolio. Feel free to reach out
-                    if you have any questions or collaboration ideas. I'm here
-                    to share my expertise with you. I'm Sufian Mustafa, a Web
+                    if you have any questions or collaboration ideas. I am here
+                    to share my expertise with you. I am Sufian Mustafa, a Web
                     Developer specializing in crafting user-friendly and
-                    responsive websites. Let's connect and create something
+                    responsive websites. Lets connect and create something
                     amazing.
                   </p>
                 </div>

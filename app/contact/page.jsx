@@ -1,10 +1,10 @@
 "use client";
-import React, { useRef, useState, useEffect, Suspense, lazy } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import $ from "jquery";
 import { useMediaQuery, useTheme } from "@mui/material";
 import "jquery-ui-dist/jquery-ui";
 import emailjs from "@emailjs/browser";
-
+// import Footer from "../footer/page";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 import ArrowBackIosNewOutlinedIcon from "@mui/icons-material/ArrowBackIosNewOutlined";
 import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 import { Helmet } from "react-helmet";
-const LazyFooter = lazy(() => import("../footer/page"));
+
 const ContactMe = () => {
   const theme = useTheme();
   console.log(theme);
@@ -346,9 +346,9 @@ const ContactMe = () => {
       <br />
       <br />
 
-      <Suspense fallback={<Spin />}>
-        <LazyFooter />
-      </Suspense>
+      {/* <Suspense fallback={<Spin />}>
+        <Footer />
+      </Suspense> */}
     </>
   );
 };

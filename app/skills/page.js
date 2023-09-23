@@ -100,8 +100,8 @@ border-radius:20px;
               <div className="About3">
                 <p>
                   {" "}
-                  In my journey as a developer, I've gained proficiency in a
-                  variety of technologies and tools. Below, you'll find an
+                  In my journey as a developer, I have gained proficiency in a
+                  variety of technologies and tools. Below, you will find an
                   overview of my skills, each accompanied by a percentage that
                   reflects my level of expertise.
                 </p>
@@ -143,7 +143,7 @@ border-radius:20px;
                             <span className="progress-label-color">{`${skill.percentage}%`}</span>
                           </div>
                         </div>
-                        <p> &nbsp; &nbsp; &nbsp; &nbsp; </p>
+                        <p> {"  "} </p>
                         <ListItemText
                           primary={skill.title}
                           style={{ width: "30%" }}
@@ -157,11 +157,12 @@ border-radius:20px;
               <div className="About3">
                 <p>
                   {" "}
-                  My skills are not static; I'm committed to continuous learning
-                  and growth, which enables me to adapt to new challenges and
-                  technologies effectively. As I evolve, I look forward to
-                  elevating my expertise across all areas of development. <br />
-                  Feel free to reach out if you'd like to discuss my skills
+                  My skills are not static; I am committed to continuous
+                  learning and growth, which enables me to adapt to new
+                  challenges and technologies effectively. As I evolve, I look
+                  forward to elevating my expertise across all areas of
+                  development. <br />
+                  Feel free to reach out if you like to discuss my skills
                   further or if you have specific questions about any technology
                   mentioned above.
                 </p>
