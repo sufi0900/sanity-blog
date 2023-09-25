@@ -44,7 +44,6 @@ const ProjectCard = ({ title, projectimg1, slug }) => {
           textAlign: "center",
           alignItems: "center",
         }}
-        data-aos="zoom-in"
         padding={3}
       >
         <Card className="ProjectCard item" style={project}>

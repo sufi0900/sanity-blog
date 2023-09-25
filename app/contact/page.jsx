@@ -1,8 +1,8 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
-import $ from "jquery";
+// import $ from "jquery";
 import { useMediaQuery, useTheme } from "@mui/material";
-import "jquery-ui-dist/jquery-ui";
+// import "jquery-ui-dist/jquery-ui";
 import emailjs from "@emailjs/browser";
 // import Footer from "../footer/page";
 import { ToastContainer, toast } from "react-toastify";
@@ -21,34 +21,34 @@ const ContactMe = () => {
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   console.log(isMatch);
   // AOS.init();
-  useEffect(() => {
-    $(".form__btn").click(function () {
-      $(".mail__letter").toggleClass("move");
-      $(".mail__top").toggleClass("closed");
-      $(".form__btn--invisible").toggleClass("visible");
-      $(".form__btn--visible").toggleClass("invisible");
-    });
-    $("input").focus(function () {
-      $(this).parent().addClass("active");
-      $("input").focusout(function () {
-        if ($(this).val() === "") {
-          $(this).parent().removeClass("active");
-        } else {
-          $(this).parent().addClass("active");
-        }
-      });
-    });
-    $("textarea").focus(function () {
-      $(this).parent().addClass("active");
-      $("textarea").focusout(function () {
-        if ($(this).val() === "") {
-          $(this).parent().removeClass("active");
-        } else {
-          $(this).parent().addClass("active");
-        }
-      });
-    });
-  });
+  // useEffect(() => {
+  //   $(".form__btn").click(function () {
+  //     $(".mail__letter").toggleClass("move");
+  //     $(".mail__top").toggleClass("closed");
+  //     $(".form__btn--invisible").toggleClass("visible");
+  //     $(".form__btn--visible").toggleClass("invisible");
+  //   });
+  //   $("input").focus(function () {
+  //     $(this).parent().addClass("active");
+  //     $("input").focusout(function () {
+  //       if ($(this).val() === "") {
+  //         $(this).parent().removeClass("active");
+  //       } else {
+  //         $(this).parent().addClass("active");
+  //       }
+  //     });
+  //   });
+  //   $("textarea").focus(function () {
+  //     $(this).parent().addClass("active");
+  //     $("textarea").focusout(function () {
+  //       if ($(this).val() === "") {
+  //         $(this).parent().removeClass("active");
+  //       } else {
+  //         $(this).parent().addClass("active");
+  //       }
+  //     });
+  //   });
+  // });
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");

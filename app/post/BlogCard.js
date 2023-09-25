@@ -73,7 +73,7 @@ export default function RecipeReviewCard({ postimg, title, slug }) {
             style={{ borderRadius: "20px" }}
           >
             <img
-              // src={urlFor(postimg).url()}
+              src={urlFor(postimg).url()}
               alt="blogImg"
               style={{
                 height: "250px",

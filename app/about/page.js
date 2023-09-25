@@ -79,9 +79,9 @@ color:black; }
           <div className="item">
             <div className="AboutLeftDiv para" style={{ overflow: "hidden" }}>
               <h1
-                data-aos="flip-left"
-                data-aos-delay="200"
-                data-aos-duration="500"
+                // data-aos="flip-left"
+                // data-aos-delay="200"
+                // data-aos-duration="500"
                 className="animate__animated animate__backInLeft"
               >
                 About Me
@@ -99,9 +99,9 @@ color:black; }
               </AnimatedDiv>
 
               <div
-                data-aos="zoom-in"
-                data-aos-delay="200"
-                data-aos-duration="500"
+              // data-aos="zoom-in"
+              // data-aos-delay="200"
+              // data-aos-duration="500"
               >
                 <p>
                   <span>What am I currently doing </span> I am a web developer
@@ -115,9 +115,9 @@ color:black; }
                   of any user .
                 </p>
                 <div
-                  data-aos="zoom-in"
-                  data-aos-delay="200"
-                  data-aos-duration="500"
+                // data-aos="zoom-in"
+                // data-aos-delay="200"
+                // data-aos-duration="500"
                 >
                   <p>
                     <span>
@@ -136,9 +136,9 @@ color:black; }
                   </p>
                 </div>{" "}
                 <div
-                  data-aos="zoom-in"
-                  data-aos-delay="200"
-                  data-aos-duration="500"
+                // data-aos="zoom-in"
+                // data-aos-delay="200"
+                // data-aos-duration="500"
                 >
                   <p>
                     <span>My Expertise in Back-End Development</span>I am also
@@ -153,90 +153,90 @@ color:black; }
               <h4>
                 <div
                   className="AboutH4"
-                  data-aos="fade-right"
-                  data-aos-delay="200"
-                  data-aos-duration="700"
+                  // data-aos="fade-right"
+                  // data-aos-delay="200"
+                  // data-aos-duration="700"
                 >
                   Here are few technologies I’ve been recently working with:
                 </div>
                 <div className="AboutLeftDiv_List">
                   <ul>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="100"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="100"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       HTML5
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="150"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="150"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       CSS3
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="170"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="170"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       JavaScript
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="200"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="200"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       ReactJS
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="230"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="230"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       NodeJS
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="260"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="260"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       ExpressJS
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="300"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="300"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       MongoDb
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="330"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="330"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       React MUI
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="360"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="360"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       React Bootstrap
                     </li>
                     <li
-                      data-aos="zoom-out-down"
-                      data-aos-delay="390"
-                      data-aos-duration="500"
+                    // data-aos="zoom-out-down"
+                    // data-aos-delay="390"
+                    // data-aos-duration="500"
                     >
                       <FileDownloadDoneOutlinedIcon style={Bluetick} />
                       FramerMotion
@@ -249,9 +249,9 @@ color:black; }
               </h4>
               <div>
                 {/* <List
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                  data-aos-duration="500"
+                  // data-aos="fade-up"
+                  // data-aos-delay="400"
+                  // data-aos-duration="500"
                 >
                
                   <ListItem>
@@ -284,7 +284,7 @@ color:black; }
             <div style={{ padding: "10px" }}>
               <div
                 className="image-area animate__animated animate__backInLeft"
-                data-aos="fade"
+                // data-aos="fade"
               >
                 <div className="img-wrapper">
                   {/* <Suspense
@@ -315,10 +315,10 @@ color:black; }
                 item
                 lg={12}
                 sm={12}
-                data-aos="zoom-in-up"
-                data-aos-offset="300"
-                data-aos-delay="200"
-                data-aos-duration="700"
+                // data-aos="zoom-in-up"
+                // data-aos-offset="300"
+                // data-aos-delay="200"
+                // data-aos-duration="700"
               >
                 <ImageGallery />
 
